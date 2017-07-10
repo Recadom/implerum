@@ -648,7 +648,15 @@
 					<div class="row">
 						<div class="column width-8 offset-2 center">
 							<h2 class="mb-30">Say Hello</h2>
-							<div class="contact-form-container">
+											<!--form action="php/send-email.php" method="POST"> fName: <input type="text" name="fname" value=""><br> msg: <div class="field-wrapper">
+												<textarea name="message" class="form-message form-element large" placeholder="Message*" tabindex="7" required></textarea>
+											</div>EMail: <input type="text" name="email" value=""><br> 
+											
+											<input type="text" name="website" class="form-website form-element large" placeholder="Website" tabindex="4">
+											<input type="text" name="lname" class="form-lname form-element large" placeholder="Last Name" tabindex="2">
+											
+											<input type="submit" value="Send Email"> </form-->
+							<div><!-- class="contact-form-container"-->
 								<form class="contact-form" action="php/send-email.php" method="post" novalidate>
 									<div class="row">
 										<div class="column width-6">
@@ -663,7 +671,7 @@
 										<div class="column width-6">
 											<input type="text" name="website" class="form-website form-element large" placeholder="Website" tabindex="4">
 										</div>
-										<div class="column width-6">
+										<!--div class="column width-6">
 											<div class="form-select form-element large">
 												<select name="options" class="form-aux" data-label="Options" tabindex="5">
 													<option selected="selected" value="">Project Budget</option>
@@ -686,7 +694,7 @@
 													<option value="">Other</option>
 												</select>
 											</div>
-										</div>
+										</div-->
 										<div class="column width-6">
 											<input type="text" name="honeypot" class="form-honeypot form-element large">
 										</div>
@@ -697,12 +705,12 @@
 												<textarea name="message" class="form-message form-element large" placeholder="Message*" tabindex="7" required></textarea>
 											</div>
 										</div>
-										<div class="column width-12">
+										<!--div class="column width-12">
 											<div class="field-wrapper pt-10 pb-10">
 											 	<input id="checkbox-1" class="form-element checkbox" name="checkbox-1" type="checkbox" required>
 												<label for="checkbox-1" class="checkbox-label">I want to receive your newsletter</label>
 											</div>
-										</div>
+										</div-->
 										<div class="column width-12">
 											<input type="submit" value="Send Email" class="form-submit button medium bkg-theme bkg-hover-theme color-white color-hover-white">
 										</div>
